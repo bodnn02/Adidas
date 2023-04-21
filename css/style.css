@@ -3868,7 +3868,7 @@ textarea:focus+.gl-textarea__label, textarea:not(:placeholder-shown)+.gl-textare
     background: none;
     border: none;
 }
-.results-wrapper {
+.m-search .results-wrapper {
     position: relative;
     display: block;
     padding: 15px 30px 0;
@@ -3879,7 +3879,7 @@ textarea:focus+.gl-textarea__label, textarea:not(:placeholder-shown)+.gl-textare
 
     overflow-y: scroll;
 }
-.results-wrapper a {
+.m-search .results-wrapper a {
     height: 40px;
     display: flex;
     flex-flow: row nowrap;
@@ -3890,7 +3890,7 @@ textarea:focus+.gl-textarea__label, textarea:not(:placeholder-shown)+.gl-textare
     cursor: pointer;
     text-decoration: none;
 }
-.results-wrapper strong {
+.m-search .results-wrapper strong {
     font-weight: bold;
 }
 .search-count {
