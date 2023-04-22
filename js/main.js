@@ -199,3 +199,13 @@ $(".mm-search").on("click", function(e) {
 $(".btn-clear-search").on("click", function(e) {
   $(this).parent().find("input").val("")
 });
+$(".sorting-options__item").on("click", function(e) {
+  $(this).parent().children(".sorting-options__item").removeClass("selected")
+  $(this).addClass("selected")
+});
+$(".grid-filter-list__item").on("click", function(e) {
+  $(this).toggleClass("selected")
+});
+$(".color-filters__item").on("click", function(e) {
+  $(this).toggleClass("selected")
+});

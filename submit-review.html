@@ -32,6 +32,22 @@
             </ul>
         </div>
         <div class="header__bottom-wrapper">
+            <div class="header__mobile">
+                <button class="mm-btn">
+                    <span title="" class="gl-icon__wrapper" role="img">
+                        <svg class="gl-icon">
+                            <use xlink:href="#hamburger"></use>
+                        </svg>
+                    </span>
+                </button>
+                <div class="mm-search">
+                    <span title="" class="gl-icon__wrapper" role="img">
+                        <svg class="gl-icon">
+                            <use xlink:href="#search"></use>
+                        </svg>
+                    </span>
+                </div>
+            </div>
             <a class="header__logo" href="">
                 <img class="logo" src="img/logo.svg" alt="">
             </a>
@@ -92,13 +108,13 @@
                             </li>
                         </ul>
                         <ul class="sub-list">
-                            
+
                         </ul>
                         <ul class="sub-list">
-                            
+
                         </ul>
                         <div class="sub-menu__banner">
-                            <a class="sub-menu__banner-link"  href="">
+                            <a class="sub-menu__banner-link" href="">
                                 <img class="sub-menu__banner-img" src="img/search-result.webp">
                                 <div class="sub-menu__banner-description">
                                     <span class="sub-menu__banner-span">Spotlight On</span>
@@ -163,20 +179,26 @@
                 </div>
                 <a class="header-icons__item">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="main-color" d="M21 21L17.625 16.5H6.375L3 21" stroke="black" stroke-width="2"></path>
-                        <path class="main-color" fill-rule="evenodd" clip-rule="evenodd" d="M16.5 9C16.5 11.485 14.485 13.5 12 13.5C9.514 13.5 7.5 11.485 7.5 9C7.5 6.515 9.514 4.5 12 4.5C14.485 4.5 16.5 6.515 16.5 9Z" stroke="black" stroke-width="2"></path>
+                        <path class="main-color" d="M21 21L17.625 16.5H6.375L3 21" stroke="black" stroke-width="2">
+                        </path>
+                        <path class="main-color" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M16.5 9C16.5 11.485 14.485 13.5 12 13.5C9.514 13.5 7.5 11.485 7.5 9C7.5 6.515 9.514 4.5 12 4.5C14.485 4.5 16.5 6.515 16.5 9Z"
+                            stroke="black" stroke-width="2"></path>
                     </svg>
                     <span class="header-icons__counter">1</span>
                 </a>
                 <a class="header-icons__item" href="">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="main-color" fill-rule="evenodd" clip-rule="evenodd" d="M9.377 6H6.424L4 10L12 18L20 10L17.594 6H14.605L12 9L9.377 6Z" stroke="black" stroke-width="2"></path>
+                        <path class="main-color" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.377 6H6.424L4 10L12 18L20 10L17.594 6H14.605L12 9L9.377 6Z" stroke="black"
+                            stroke-width="2"></path>
                     </svg>
                     <span class="header-icons__counter">1</span>
                 </a>
                 <a class="header-icons__item header-icons__cart" href="">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="main-color" fill-rule="evenodd" clip-rule="evenodd" d="M5 21H19V7H5V21Z" stroke="black" stroke-width="2"></path>
+                        <path class="main-color" fill-rule="evenodd" clip-rule="evenodd" d="M5 21H19V7H5V21Z"
+                            stroke="black" stroke-width="2"></path>
                         <path class="main-color" d="M15 10V3H9V10" stroke="black" stroke-width="2"></path>
                     </svg>
                     <span class="header-icons__counter">1</span>
@@ -185,6 +207,191 @@
                     </div>
                 </a>
             </div>
+        </div>
+        <div class="m-search">
+            <div class="search-box">
+                <input class="input" type="text" value="hoodie"></input>
+                <div class="icon">
+                    <button class="m-search__close">
+                        <span title="" class="gl-icon__wrapper" role="img">
+                            <svg class="gl-icon">
+                                <use xlink:href="#arrow-left"></use>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+                <button class="btn-clear-search">clear</button>
+            </div>
+            <ul class="results-wrapper">
+                <li>
+                    <a href="">
+                        <div class="search-term">
+                            <strong>hoodie</strong>s men
+                        </div>
+                        <div class="search-count">512</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="m-menu">
+            <div class="m-menu__header">
+                <a class="logo" href="/"></a>
+            </div>
+            <div class="m-menu__close-container">
+                <button class="m-menu__close">
+                    <span title="" class="gl-icon__wrapper" role="img">
+                        <svg class="gl-icon">
+                            <use xlink:href="#close"></use>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="m-menu__content">
+                <ul>
+                    <li>
+                        <button class="m-menu__link large highlighted">
+                            <span>Men</span>
+                            <span title="" class="gl-icon__wrapper" role="img">
+                                <svg class="gl-icon">
+                                    <use xlink:href="#arrow-right"></use>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="m-menu__sub-section">
+                            <div class="m-menu__header">
+                                <button class="m-menu__sub-section__close">
+                                    <span title="" class="gl-icon__wrapper" role="img">
+                                        <svg class="gl-icon">
+                                            <use xlink:href="#arrow-left"></use>
+                                        </svg>
+                                    </span> 
+                                    <span>MEN</span>
+                                </button>
+                            </div>
+                            <ul>
+                                <li>
+                                    <button class="m-menu__link small">
+                                        <span>Shoes</span>
+                                        <span title="" class="gl-icon__wrapper" role="img">
+                                            <svg class="gl-icon">
+                                                <use xlink:href="#arrow-right"></use>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                    <div class="m-menu__sub-section">
+                                        <div class="m-menu__header">
+                                            <button class="m-menu__sub-section__close">
+                                                <span title="" class="gl-icon__wrapper" role="img">
+                                                    <svg class="gl-icon">
+                                                        <use xlink:href="#arrow-left"></use>
+                                                    </svg>
+                                                </span> 
+                                                <span>Shoes</span>
+                                            </button>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <a class="m-menu__link small" href="">
+                                                    <span>All Men's Shoes</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="m-menu__link large highlighted">
+                            <span>Men</span>
+                            <span title="" class="gl-icon__wrapper" role="img">
+                                <svg class="gl-icon">
+                                    <use xlink:href="#arrow-right"></use>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="m-menu__sub-section">
+                            <div class="m-menu__header">
+                                <button class="m-menu__sub-section__close">
+                                    <span title="" class="gl-icon__wrapper" role="img">
+                                        <svg class="gl-icon">
+                                            <use xlink:href="#arrow-left"></use>
+                                        </svg>
+                                    </span> 
+                                    <span>MEN</span>
+                                </button>
+                            </div>
+                            <ul></ul>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="m-menu__link large">
+                            <span>Men</span>
+                            <span title="" class="gl-icon__wrapper" role="img">
+                                <svg class="gl-icon">
+                                    <use xlink:href="#arrow-right"></use>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="m-menu__sub-section">
+                            <div class="m-menu__header">
+                                <button class="m-menu__sub-section__close">
+                                    <span title="" class="gl-icon__wrapper" role="img">
+                                        <svg class="gl-icon">
+                                            <use xlink:href="#arrow-left"></use>
+                                        </svg>
+                                    </span> 
+                                    <span>MEN</span>
+                                </button>
+                            </div>
+                            <ul></ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="separator"></div>
+                    </li>
+                    <li>
+                        <a class="m-menu__service-link" href="">
+                            <span>My Account</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-menu__service-link" href="">
+                            <span>Exchanges & Returns</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-menu__service-link" href="">
+                            <span>Order Tracker</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-menu__service-link" href="">
+                            <span>adiClub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-menu__service-link" href="">
+                            <span>Gift Cards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-menu__service-link" href="">
+                            <span>Store Locator</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="m-menu__service-link" href="">
+                            <span>Mobile Apps</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="m-menu__footer">
+                <li></li>
+            </ul>
         </div>
     </header>
     <main>
@@ -496,10 +703,34 @@
         </div>
     </main>
     <footer class="footer">
+        <div class="account-actions">
+            <a href="/my-account">My account</a>
+            <a href="/cart">Your Bag (1)</a>
+        </div>
         <div class="footer-newsletter">
             <span>JOIN OUR ADICLUB & GET 15% OFF</span>
             <button class="button-gl">SIGN UP FOR FREE</button>
         </div>
+        <ul class="footer-mobile">
+            <li>
+                <a href="">Order tracker</a>
+            </li>
+            <li>
+                <a href="">Order tracker</a>
+            </li>
+            <li>
+                <a href="">Order tracker</a>
+            </li>
+            <li>
+                <a href="">Order tracker</a>
+            </li>
+            <li>
+                <a href="">Order tracker</a>
+            </li>
+            <li>
+                <a href="">Order tracker</a>
+            </li>
+        </ul>
         <ul class="footer-dekstop">
             <li class="footer-dekstop__item">
                 <h5>PRODUCTS</h5>
