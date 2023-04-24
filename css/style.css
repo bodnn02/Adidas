@@ -3339,6 +3339,7 @@ textarea:focus+.gl-textarea__label, textarea:not(:placeholder-shown)+.gl-textare
     font-weight: 700;
 }
 .highlights-title {
+    max-width: 100%;
     font-size: 28px;
     line-height: 1.214;
     text-align: center;
